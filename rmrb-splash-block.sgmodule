@@ -1,5 +1,5 @@
 #!name=人民日报-开屏广告拦截
-#!desc=拦截人民日报 App 开屏广告配置与相关启动素材
+#!desc=拦截人民日报 App 开屏广告相关 PAG 启动素材与展示配置
 #!author=傻妞
 #!system=ios
 
@@ -7,8 +7,12 @@
 hostname = %APPEND% pdapis.pdnews.cn, cdnjdphoto.aikan.pdnews.cn
 
 [Rule]
+# 开屏/展示配置（如命中可直接阻断广告位下发）
 URL-REGEX,^https?:\/\/pdapis\.pdnews\.cn\/api\/rmrb-bff-display-zh\/display\/zh\/c\/pageInfo\/v2\?pageId=20012(&.*)?$,REJECT
-URL-REGEX,^https?:\/\/cdnjdphoto\.aikan\.pdnews\.cn\/display\/(night|immersive)\/(people|mine|service)-c\.pag(\?.*)?$,REJECT
 
-# 加强版：如基础版未完全拦截，可取消下一行注释
+# 抓包确认的 PAG 开屏素材（更精准，优先用这组）
+URL-REGEX,^https?:\/\/cdnjdphoto\.aikan\.pdnews\.cn\/display\/(immersive|night)\/(people|service|mine)-c\.pag(\?.*)?$,REJECT
+URL-REGEX,^https?:\/\/cdnjdphoto\.aikan\.pdnews\.cn\/sjbj-20240516\/image\/display\/801f044aec0f4dc2ae9e85d382d85a34\.pag(\?.*)?$,REJECT
+
+# 加强版：如基础版未完全拦截，可取消下一行注释（可能误伤正文图片）
 # URL-REGEX,^https?:\/\/cdnjdphoto\.aikan\.pdnews\.cn\/sjbj-\d+\/image\/display\/[A-Fa-f0-9]+\.(png|jpe?g|pag)(\?.*)?$,REJECT
