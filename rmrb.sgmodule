@@ -12,4 +12,4 @@ URL-REGEX,^https?:\/\/cdnjdphoto\.aikan\.pdnews\.cn\/display\/(immersive|night)\
 URL-REGEX,^https?:\/\/cdnjdphoto\.aikan\.pdnews\.cn\/sjbj-20240516\/image\/display\/(7e81da19ad394ded8fd18920b7a1276f|30f80c6e894f452da7f37b55c9f015e5|9075c365c1ee44a38d914728bf1ba49d|eba2ce70b4cf411bbd402dc8c3d079e1|801f044aec0f4dc2ae9e85d382d85a34)\.pag(\?.*)?$,REJECT
 
 [Script]
-人民日报开屏去广告 = type=http-response,pattern=^https?:\/\/pdapis\.pdnews\.cn\/api\/rmrb-bff-display-zh\/display\/zh\/c\/launchPage\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ogbk666-prog/surge-modules/main/rmrb-launch-ad-strip.js
+人民日报开屏去广告 = type=http-response,pattern=^https?:\/\/pdapis\.pdnews\.cn\/api\/rmrb-bff-display-zh\/display\/zh\/c\/launchPage\?,requires-body=1,max-size=0,script-path=https://cdn.jsdelivr.net/gh/ogbk666-prog/surge-modules@main/rmrb-launch-ad-strip.js
