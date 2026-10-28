@@ -4,7 +4,7 @@
 
 # 清爽一点 · Surge Modules
 
-把去广告模块放在一个地方。看清用途，选好版本，在 iPhone 上打开网站即可一键导入 Surge。
+                                            适用于Surge的去广告模块
 
 [![打开模块网站](https://img.shields.io/badge/打开模块网站-一键导入-C9F779?style=for-the-badge&labelColor=102122)](https://surge.loder.my/)
 [![Surge](https://img.shields.io/badge/适用-Surge_iOS-273C3C?style=for-the-badge)](https://manual.nssurge.com/profile/module.html)
