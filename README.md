@@ -20,7 +20,7 @@
 | 应用 | 作用 | 入口 |
 | --- | --- | --- |
 | 人民日报 | 清空开屏广告字段，拦截已确认的开屏素材 | [网站一键导入](https://surge.loder.my/#modules) · [查看模块](rmrb.sgmodule) |
-| 心悦俱乐部 · 完整版 | 过滤开屏、首页、游戏中心、玩家俱乐部和“我的”页广告 | [网站一键导入](https://surge.loder.my/#modules) · [查看模块](https://github.com/ogbk666-prog/xinyue-surge-adblock/blob/main/xinyue-adblock.sgmodule) |
+| 心悦俱乐部  | 过滤开屏、首页、游戏中心、玩家俱乐部和“我的”页广告 | [网站一键导入](https://surge.loder.my/#modules) · [查看模块](https://github.com/ogbk666-prog/xinyue-surge-adblock/blob/main/xinyue-adblock.sgmodule) |
 
 
 ## 三步使用
