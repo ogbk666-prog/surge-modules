@@ -21,9 +21,7 @@
 | --- | --- | --- |
 | 人民日报 | 清空开屏广告字段，拦截已确认的开屏素材 | [网站一键导入](https://surge.loder.my/#modules) · [查看模块](rmrb.sgmodule) |
 | 心悦俱乐部 · 完整版 | 过滤开屏、首页、游戏中心、玩家俱乐部和“我的”页广告 | [网站一键导入](https://surge.loder.my/#modules) · [查看模块](https://github.com/ogbk666-prog/xinyue-surge-adblock/blob/main/xinyue-adblock.sgmodule) |
-| 心悦俱乐部 · 仅开屏版 | 只处理开屏广告，供排查使用 | [网站一键导入](https://surge.loder.my/#modules) · [查看模块](https://github.com/ogbk666-prog/xinyue-surge-adblock/blob/main/xinyue-splash-only.sgmodule) |
 
-> 心悦俱乐部的两个版本不要同时启用。完整版的说明基于 iOS 版 6.5.4.34 抓包样本；应用更新后效果可能变化。
 
 ## 三步使用
 
