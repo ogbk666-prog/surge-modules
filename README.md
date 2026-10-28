@@ -4,7 +4,7 @@
 
 # 清爽一点 · Surge Modules
 
-                                            适用于Surge的去广告模块
+                                                        适用于Surge的去广告模块
 
 [![打开模块网站](https://img.shields.io/badge/打开模块网站-一键导入-C9F779?style=for-the-badge&labelColor=102122)](https://surge.loder.my/)
 [![Surge](https://img.shields.io/badge/适用-Surge_iOS-273C3C?style=for-the-badge)](https://manual.nssurge.com/profile/module.html)
