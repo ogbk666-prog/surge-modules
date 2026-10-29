@@ -1,0 +1,8 @@
+#!name=虎扑广告修复（8.0.50 抓包版）
+#!desc=清空 goblin 接口广告列表；适配 getOther/v2 与 batch，需开启 Surge HTTPS 解密。
+
+[MITM]
+hostname = %APPEND% goblin.hupu.com
+
+[Body Rewrite]
+http-response-jq ^https://goblin\.hupu\.com/[0-9]+/[^/]+/interfaceAd/getOther/(v2|batch)(\?|$) '.ad_code = -41 | .ads = []'
